@@ -85,3 +85,64 @@ header{
     font-size: 19px;
     font-weight: 10;
 }
+
+section{
+    padding: 130px 18%;
+}
+.home{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 4rem;
+}
+.hometext h2{
+    margin: 10px 0px 25px;
+    font-size: var(--h2-font);
+}
+.hometext h5{
+    margin-bottom: 23px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.hometext h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hometext p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.homeimg{
+    max-width: 100%;
+    width: 120px;
+    height: auto;
+}
+.ColorUCL{
+    color: #FF029E;
+}
+.social a{
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #FF029E;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    
+}
