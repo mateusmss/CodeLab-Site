@@ -8,7 +8,7 @@
     --background: black;
     --color: white;
     --second-color: #a09dab;
-    --main-color: #f75023;
+    --main-color: #FF029E;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -33,7 +33,7 @@ header{
 
 .logo img{
     max-width: 100%;
-    width: 120px;
+    width: 80px;
     height: auto;
 }
 
@@ -123,26 +123,79 @@ section{
 }
 .homeimg{
     max-width: 100%;
-    width: 120px;
+    width: 540px;
     height: auto;
 }
 .ColorUCL{
     color: #FF029E;
 }
 .social a{
-    width: 30px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     background: #FF029E;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 17px;
     margin-right: 5px;
 }
 
 .social a:hover{
     transform: scale(1.1);
-    
+    transition: .5s;
+    background: white;
+}
+
+.btn{
+    display: inline-block;
+    color: var(--background);
+    font-size: var(--p-font);
+    background: white;
+    padding: 10px 40px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+.btn:hover{
+    transition: scale(1.1);
+}
+
+header.sticky{
+    background: var(--background);
+    padding: 13px 18%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-box{
+    margin-top: -200px;
+    padding: 45px 45px 45px 45px;
+    transition: ease .50s;
+    cursor: pointer;
+}
+.sub-img img{
+    max-width: 100%;
+    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sub-box h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.sub-box p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 30px;
 }
