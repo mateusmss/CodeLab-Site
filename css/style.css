@@ -103,7 +103,8 @@ section{
 }
 .hometext h2{
     margin: 10px 0px 25px;
-    font-size: var(--h2-font);
+    font-size: 40px;
+    
 }
 .hometext h5{
     margin-bottom: 23px;
@@ -124,6 +125,10 @@ section{
 .homeimg{
     max-width: 100%;
     width: 540px;
+    height: auto;
+}
+.homeimg img{
+    width: 650px;
     height: auto;
 }
 .ColorUCL{
@@ -161,6 +166,7 @@ section{
 }
 .btn:hover{
     transition: scale(1.1);
+    background-color: #FF029E;
 }
 
 header.sticky{
@@ -205,4 +211,36 @@ header.sticky{
     border-radius: 12px;
     will-change: transform;
     transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05, 1.05);
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 2rem;
+}
+.about-img img{
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    border-radius: 30%;
+}
+
+.about-text h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 8px 0px 25px;
+    line-height: 1.1;
+}
+.about-text h3{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-text p{
+    max-width: 550px;
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 28px;
+    margin-bottom: 45px;
 }
