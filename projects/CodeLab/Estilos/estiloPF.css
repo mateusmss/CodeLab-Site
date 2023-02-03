@@ -1,0 +1,217 @@
+body{
+    background-color: white;    
+    color: black;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin-left: 70px;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+title{
+    flex-direction: column;
+    line-height: 10px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 35px;
+}
+
+h1{
+    font-weight: 100;
+}
+
+#homet{
+    font-size: 44px;
+}
+
+#social{
+    font-size: 25px;
+}
+h3{
+    font-size: 25px;
+    
+    line-height: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#ig{
+    padding: 10px;
+    background-color: #ff029e;
+    border: 2px solid;
+    border-color: #ff029e;
+    border-radius: 15px;
+    color: white;
+}
+
+#ig:hover{
+    background-color: hwb(324 27% 0%);
+    border-color: hwb(324 27% 0%);
+    transition: 0.5s all;
+}
+
+hr{
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+
+}
+
+#imagem{
+    width: 50%;
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+
+}
+
+span{
+    color: #ff029e;
+
+}
+
+p{
+    line-height: auto;
+    max-width: 500px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+a{
+    color: black;
+
+}
+
+a:hover{
+    color: #ff029e;
+    transition: 0.3s all;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+}
+
+#hack{
+    border: 2px solid #ff029e;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+#hack:hover{
+    background-color: #ff029e;
+    color: white;
+}
+
+#home{
+    border: 2px solid #ff029e;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+#home:hover{
+    background-color: #ff029e;
+    color: white;
+}
+
+#learn{
+    border: 2px solid #ff029e;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+#learn:hover{
+    background-color: #ff029e;
+    color: white;
+}
+
+#hire{
+    border: 2px solid #ff029e;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+#hire:hover{
+    background-color: #ff029e;
+    color: white;
+}
+
+
+input{
+    margin-top: 20px;
+    height: 30px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
+
+
+form [type=submit]{
+    height: 50px;
+    width: 50%;
+    background-color: #ff029e;
+    color: white;
+    font-weight: bold;
+}
+
+form [type=submit]:hover{
+    cursor: pointer;
+}
+
+form [type=text]{
+    height: 20px;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid;
+    border-color: whitesmoke;
+}
+
+form [type=text]:hover{
+    background-color: whitesmoke;
+    border-color: rgb(34,34,34);
+    transition: 0.5s all;
+}
+
+form [type=email]{
+    height: 20px;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid;
+    border-color: whitesmoke;
+}
+
+form [type=email]:hover{
+    background-color: whitesmoke;
+    border-color: rgb(34,34,34);
+    transition: 0.5s all;
+}
+
+form [type=submit]:hover{
+    background-color: hwb(324 27% 0%);
+    transition: 0.5s all;
+    color: rgb(34,34,34);
+}

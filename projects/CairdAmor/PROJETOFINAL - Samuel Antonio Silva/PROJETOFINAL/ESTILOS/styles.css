@@ -1,0 +1,107 @@
+body{
+    background-color: #add8e6;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+h1{
+    font-weight: 120;
+}
+
+h2{
+    font-weight: 50;
+}
+main{
+   display: flex;
+   flex-direction: row;
+   margin-top: 70px;
+}
+
+span{
+    color:red;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    margin-top: 50px;
+
+}
+
+img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:#0f44a5;
+    transition: 0.3s all;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#doe{
+    border : 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#doe:hover{
+    background-color: red;
+    color:#0f44a5;
+}
+
+input{
+    margin-top: 20px;
+    height: 30px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type=submit]{
+    height: 50px;
+    width: 50%;
+    background-color: #FF0000;
+    color: black;
+    font-weight: bold;
+}
+
+form [type=submit]:hover {
+    cursor: pointer;
+
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+    h1{
+        text-align: center;
+    }
+    ul{
+        text-align: center;
+    }
+}

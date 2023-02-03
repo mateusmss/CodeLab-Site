@@ -1,0 +1,180 @@
+body {
+    background-color: #3e4532;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: 0;
+
+}
+
+header {
+    margin-left: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    max-width: 1400px;
+    align-items: center
+}
+
+
+main {
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+
+li {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+
+
+
+p {
+
+    font-size: 25px;
+    line-height: normal;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: left;
+    line-break: normal;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: #56caff;
+    line-break: strict;
+}
+
+footer {
+    background-color: #232629;
+    padding-bottom: 1px;
+}
+
+h4 {
+    margin-left: 50px;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 10px;
+    color: #ffdd94;
+
+    margin-bottom: 30px;
+}
+
+h6 {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+form {
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+input {
+    height: 20px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#enviar {
+    border-radius: 20px;
+    padding: 5px;
+    height: auto;
+    background-color: #56caff;
+    color: whitesmoke;
+
+}
+
+#enviar:hover {
+    background-color: #4aabd9;
+    transition: 1ms;
+    cursor: pointer
+}
+
+#ProjetoTitulo {
+    padding: 10px;
+    margin-bottom: 10px;
+    word-spacing: 4px;
+    line-height: normal;
+    line-break: normal;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#Nav1 {
+    color: #d0e6a5;
+}
+
+#Nav2 {
+    color: #dde4a1;
+}
+
+#Nav3 {
+    color: #e8e29d;
+}
+
+#Nav4 {
+    color: #f4df98;
+}
+
+#Nav5 {
+    color: #ffdd94;
+}
+
+#NavDoar {
+    padding: 10px;
+    background-color: #56caff;
+    color: whitesmoke;
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+#NavDoar:hover {
+    background-color: #4aabd9;
+    color: whitesmoke;
+    transition: 1ms;
+}
+
+#LadoALado {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+#FotoIntegrar {
+    display:flex;
+    flex-direction: row;
+    width: 960px;
+    height: 538px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+
+#Copyright {
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    color: #ccd0d4;
+}
