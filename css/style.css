@@ -319,3 +319,9 @@ header.sticky{
     opacity: 1;
     color: white;
 }
+
+footer p{
+    color: var(--second-color);
+    font-size: var(--p-font);
+    text-align: center;
+}
