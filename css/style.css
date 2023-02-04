@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.depoimentos{
+    background: black;
+}
+.home{
+    background: black;
+}
+
 :root{
     --background: black;
     --color: white;
@@ -183,7 +190,7 @@ header.sticky{
 }
 
 .sub-box{
-    margin-top: -200px;
+    margin-top: -170px;
     padding: 45px 45px 45px 45px;
     transition: ease .50s;
     
@@ -323,6 +330,8 @@ footer p{
     color: var(--second-color);
     font-size: var(--p-font);
     text-align: center;
+    align-items: center;
+    background: var(--main-color);
 }
 
 .depoimentos-content{
@@ -335,10 +344,9 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -20px;
 }
 
-  
-  
 .row{
     
     color: white;
@@ -348,11 +356,18 @@ footer p{
     transition: ease .45s;
     height: 450px;
     width: 450px;
-    
+
 }
 
-.row p´{
+.row p{
     font-size: var(--p-font);
+    color: var(--second-color);
+   
+}
+.row h5{
+    color: var(--second-color);
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .s img{
@@ -375,6 +390,7 @@ footer p{
     display: inline-block;
     margin: 10px;
     border-radius: 10px;
+    margin-top: -250px;
  }
  
  button:hover {
