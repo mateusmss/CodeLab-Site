@@ -186,7 +186,7 @@ header.sticky{
     margin-top: -200px;
     padding: 45px 45px 45px 45px;
     transition: ease .50s;
-    cursor: pointer;
+    
 }
 .sub-img img{
     max-width: 100%;
@@ -273,7 +273,6 @@ header.sticky{
     margin-top: 5rem;
     text-align: center;
     cursor: pointer;
-
 }
 
 .col{
@@ -324,4 +323,31 @@ footer p{
     color: var(--second-color);
     font-size: var(--p-font);
     text-align: center;
+}
+
+.depoimentos-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+.row{
+    background: #ffffff;
+    color: #191919;
+    box-shadow: 18px 0px 87px 0px rgb(10, 15, 70 / 7%);
+    border-radius: 12px;
+    padding: 45px 45px 45px 45px;
+    transition: ease .45s;
+    height: 450px;
+    width: 450px;
+    
+}
+
+.s img{
+    height: 65px;
+    width: 65px;
+    background: #f75124;
 }
