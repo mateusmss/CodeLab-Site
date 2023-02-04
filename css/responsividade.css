@@ -1,0 +1,21 @@
+/* Largura mínima de 320 pixels */
+@media (min-width: 320px) {
+    .logo img {
+        display: none;
+      }
+  }
+  
+  /* Largura mínima de 768 pixels */
+  @media (min-width: 768px) {
+    /* Estilos para tablets */
+  }
+  
+  /* Largura mínima de 992 pixels */
+  @media (min-width: 992px) {
+    /* Estilos para desktops pequenos */
+  }
+  
+  /* Largura mínima de 1200 pixels */
+  @media (min-width: 1200px) {
+    /* Estilos para desktops grandes */
+  }

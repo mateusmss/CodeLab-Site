@@ -370,12 +370,17 @@ footer p{
     margin-bottom: 10px;
 }
 
+.row:hover{
+    will-change: transform;
+    transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05, 1.05);
+}
 .s img{
     height: 130px;
     width: 130px;
     border-radius: 20%;
     margin-bottom: 30px;
 }
+
 
 .depoimentos {
     text-align: center;
