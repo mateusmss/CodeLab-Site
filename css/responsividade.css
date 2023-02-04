@@ -8,11 +8,15 @@
   /* Largura mínima de 768 pixels */
   @media (min-width: 768px) {
     /* Estilos para tablets */
+    
   }
   
   /* Largura mínima de 992 pixels */
   @media (min-width: 992px) {
     /* Estilos para desktops pequenos */
+    .logo img {
+        display: none;
+    }
   }
   
   /* Largura mínima de 1200 pixels */
