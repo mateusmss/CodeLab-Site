@@ -332,11 +332,16 @@ footer p{
     align-items: center;
     margin-top: 5rem;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+  
+  
 .row{
-    background: #ffffff;
-    color: #191919;
+    
+    color: white;
     box-shadow: 18px 0px 87px 0px rgb(10, 15, 70 / 7%);
     border-radius: 12px;
     padding: 45px 45px 45px 45px;
@@ -346,8 +351,44 @@ footer p{
     
 }
 
-.s img{
-    height: 65px;
-    width: 65px;
-    background: #f75124;
+.row p´{
+    font-size: var(--p-font);
 }
+
+.s img{
+    height: 130px;
+    width: 130px;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+
+.depoimentos {
+    text-align: center;
+ }
+ 
+ button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ 
+ button:hover {
+    background-color: var(--main-color);
+ }
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
