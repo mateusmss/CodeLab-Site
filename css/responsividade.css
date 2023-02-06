@@ -1,25 +1,47 @@
-/* Largura mínima de 320 pixels */
-@media (min-width: 320px) {
-    .logo img {
-        display: none;
-      }
+:root{
+  --background: black;
+  --color: white;
+  --second-color: #a09dab;
+  --main-color: #FF029E;
+  --big-font: 5rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+
+@media (max-width: 1425px){
+  header{
+    padding: 16px 3%;
+    transition: .3s;  
   }
-  
-  /* Largura mínima de 768 pixels */
-  @media (min-width: 768px) {
-    /* Estilos para tablets */
-    
+  header.sticker{
+    padding: 10px 3%;
+    transition: .3s;  
   }
-  
-  /* Largura mínima de 992 pixels */
-  @media (min-width: 992px) {
-    /* Estilos para desktops pequenos */
-    .logo img {
-        display: none;
-    }
+  section{
+    padding: 70px 3%;
+    transition: .3s;
   }
-  
-  /* Largura mínima de 1200 pixels */
-  @media (min-width: 1200px) {
-    /* Estilos para desktops grandes */
+  :root{
+    --big-font: 4rem;
+    --h2-font: 2.3rem;
+    --p-font: 1rem;
+    transition: .3s;
   }
+}
+
+@media (max-width: 950px){
+  #menu-icon{
+    display: block;
+  }
+  .home{
+    min-height: 80vh;
+  }
+  .navlist{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: var(--main-color);
+  }
+}
