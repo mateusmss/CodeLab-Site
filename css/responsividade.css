@@ -36,12 +36,32 @@
   .home{
     min-height: 80vh;
   }
-  .navlist{
+  .navbar{
     position: absolute;
-    top: 100%;
+    top: -600px;
     left: 0;
     right: 0;
     flex-direction: column;
     background: var(--main-color);
+    text-align: right;
+    transition: all .40s;
+  }
+  .navbar a{
+    display: block;
+    padding: 1.2rem;
+    margin: 1.5rem;
+    border-right: 2px solid var(--background);
+    color: var(--color);
+  }
+  .navbar a:hover{
+    background: var(--color);
+    color: var(--main-color);
+    border-radius: 10px;
+  }
+  .navbar a::after{
+    display: none;
+  }
+  .navbar.active{
+    top: 100%
   }
 }
