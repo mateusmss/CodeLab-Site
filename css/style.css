@@ -103,7 +103,7 @@ section{
     position: relative;
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     grid-gap: 4rem;
